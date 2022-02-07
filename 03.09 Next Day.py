@@ -19,7 +19,6 @@ else:
     day = 1
     if month == 12:
         month = 1
-        year += 1
     else:
         month += 1
-print("Next Day [mm-dd] %d-%d-%d" % (month, day))
+print("Next day: %d/%d." % (month, day))
