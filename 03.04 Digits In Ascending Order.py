@@ -1,6 +1,7 @@
 num1 = int(input("Enter a number: "))
+num1 = str(num1)
 
-if sorted(num1) == num1:
-    print ("Yes")
+if num1[0] < num1[1] and num1[1] < num1[2]:
+  print("YES")
 else:
-    print("No")
+  print("NO")
