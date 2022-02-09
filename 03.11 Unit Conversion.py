@@ -52,4 +52,4 @@ else:
     print("INVALID!")
 
 multiplication = multiplier * FromValue
-print("{} {} => {} {}".format(FromValue, FromUnit, multiplication, ToUnit)) 
+print("{} {} => {} {}".format(FromValue, FromUnit, multiplication, ToUnit))
