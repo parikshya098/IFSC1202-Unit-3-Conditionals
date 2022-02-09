@@ -51,5 +51,5 @@ elif (FromUnit == "mi" and ToUnit == "yd"):
 else:
     print("INVALID!")
 
-multiplication = multiplier * FromValue
+multiplication = round(multiplier * FromValue,7)
 print("{} {} => {} {}".format(FromValue, FromUnit, multiplication, ToUnit))
